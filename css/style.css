@@ -1,0 +1,46 @@
+body {
+    font-family: "Roboto Mono", monospace;
+    text-align: center;
+    background-image: url("https://i31.servimg.com/u/f31/17/41/76/40/backgr31.jpg");
+    background-color: #000000;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+  
+#logo{
+    margin-top: 20px;
+    width: 30%;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 24px 0;
+
+}
+  
+ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 24px;
+    background: var(--surface-color);
+    border:1px solid var(--stroke-color);
+    border-radius: 8px;
+    color: aliceblue;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+  
+ul li a:hover{
+    background: var(--surface-color-hover);
+    border:1px solid var(--text-color);
+}
+  
